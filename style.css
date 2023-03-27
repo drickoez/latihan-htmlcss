@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+}
+.container {
+  height: 80px;
+  background-color: black;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  color: white;
+  justify-content: start;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.navbar h1 {
+  padding-right: 20px;
+}
+.navbar a {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.hero h1 {
+  font-size: 90px;
+}
+
+.hero p {
+  font-size: 40px;
+  color: gray;
+}
+
+.hero span {
+  color: yellow;
+}
+
+.hero img {
+  width: 400px;
+  margin-bottom: 50px;
+}
+
+.about {
+  text-align: center;
+  background-color: gainsboro;
+  padding: 60px 100px;
+}
+
+.project-wrapper h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+.list-project {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px;
+}
+
+.project img {
+  width: 300px;
+}
+
+.form {
+  background-color: gainsboro;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 80px;
+  margin-bottom: -20px;
+}
+
+.message-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input,
+textarea {
+  width: 400px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 2px solid gainsboro;
+}
+
+.submit {
+  background-color: bisque;
+}
+
+footer {
+  background-color: grey;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 20px 70px;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+}
+.footer-menu a {
+  text-decoration: none;
+  color: white;
+  line-height: 20px;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 425px) {
+  .list-project {
+    flex-direction: column;
+  }
+
+  input,
+  textarea {
+    width: 200px;
+  }
+
+  .navbar {
+    text-align: center;
+  }
+  .navbar h1 {
+    padding-right: 10px;
+    font-size: 25px;
+  }
+}
